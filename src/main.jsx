@@ -17,7 +17,7 @@ import { UserProvider } from './Context/UserProvider.jsx';
 
 createRoot(document.getElementById('root')).render(
   <CartProvider>
-    <BrowserRouter>
+    <BrowserRouter basename='/proyecto-dew'>
       <UserProvider>
         <Routes>
           <Route path="/" element={<App />} />
