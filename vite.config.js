@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/proyecto-dew/',
+  base: '/proyecto-final-dew/',
   plugins: [react()],
 });
